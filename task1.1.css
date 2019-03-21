@@ -1,0 +1,9 @@
+h1{text-align:center;}
+div{
+    width: 30%;
+    padding-top: 30%;
+    margin: 1%;
+    border-radius: 20px;
+    background:orange;
+    float:left;
+}

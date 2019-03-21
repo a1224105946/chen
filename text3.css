@@ -1,24 +1,27 @@
 body {
     background-color: #68cdd5;
+    margin: 0;
 }
-p {
-    
+/*以下是文字设置*/
+.p1 {
+    color: #ffffff;
+    line-height: 20px;
+    font-size:13.275px;
+    letter-spacing: 1.5px;
+}
+
+.p2,.p3 {
     margin-top:10px;
     text-align: center; 
     color: #ffffff;
     font-size: 5.025px;
 }
-.p1 {
-     font-size:13.275px;
-}
+/*以下是图片设置*/
 .back1 {
     width: 31px;
     height: 27px;
  }
 .logo1 {
-    position: absolute;
-    margin-top: 68px;
-    margin-left: 50%;
     width: 99px;
     height: 35px;
 }
@@ -30,16 +33,29 @@ p {
     width: 57px;
     height:42px;
 }
+/*以下是div设置*/
 .back{
     position: absolute;
-    left: 15.5px;
+    left: 13px;
     top:10px;
 }
+.logo{
+    text-align: center;
+    margin-top: 68px;
+}
+.contant{
+    margin-top: 86px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 .left{
-    display:inline;
+    position: fixed;
+    margin-top: 183px;
+    margin-left: 69.5px;
     float:left;
 }
 .right{
-    display:inline;
+    margin-right: 69.5px;
+    margin-top:183px;
     float: right;
 }

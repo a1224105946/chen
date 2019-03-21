@@ -4,14 +4,15 @@ body {
 }
 /*以下是文字设置*/
 .p1 {
+    margin: 0;
     color: #ffffff;
     line-height: 20px;
     font-size:13.275px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
 .p2,.p3 {
-    margin-top:10px;
+    margin-top:0px;
     text-align: center; 
     color: #ffffff;
     font-size: 5.025px;
@@ -44,18 +45,18 @@ body {
     margin-top: 68px;
 }
 .contant{
-    margin-top: 86px;
+    height: 90px;
+    margin-top: 61px;
     margin-left: 40px;
     margin-right: 40px;
 }
 .left{
-    position: fixed;
-    margin-top: 183px;
+    margin-top: 89px;
     margin-left: 69.5px;
     float:left;
 }
 .right{
     margin-right: 69.5px;
-    margin-top:183px;
+    margin-top:89px;
     float: right;
 }

@@ -29,35 +29,41 @@ header{
    }
 /*main 部分*/
 input{
-    display: inline-block;
+    
     height: 50px;
     border: 0;
-    width:100%;
+    width:calc(100% - 59px);
+    float: right;
 }
+img{
+    float: left;
+    clear: left;
+ }
 .username {
+    margin-top: 8px;
+    width: 100%;
     display: inline-block;
-   margin-top: 8px;
    }
 .password {
-    display: inline-block;
     margin-top: 8px;
-    
-}
+    width: 100%;
+    display: inline-block;
+    }
 button{
     border: 0;
     background-color: #5fc0cd;
     color: #ffffff;
+    font-size: 17px;
 }
 .button{
     background-color: #5fc0cd;
-    color: #ffffff;
     height: 50px;
     width: 100%; 
     margin-top: 8px;
     display: flex;
     border: 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content:center;
 }
 img{
     width: 59px;
@@ -68,6 +74,13 @@ img{
 }
 /*footer*/
 .wangjimima {
+   margin-top: 10px;
    font-size: 14px;
    float: right;
+   position: relative;
+   right:16px; 
+}
+a {
+    color: #5fc0cd;
+   
 }

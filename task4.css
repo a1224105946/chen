@@ -59,8 +59,8 @@ input {
     height: 25px;
     border: none;
     border-left: 1px solid #eaedee;
-    width: calc(100% - 58px);
-    float: right;
+    width: 100%;
+    text-indent: 16px;
     outline: none;
     margin-left: 58px;
     vertical-align: middle;

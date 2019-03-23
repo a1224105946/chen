@@ -31,26 +31,24 @@ header {
 }
 
 /*中间部分*/
-/*大背景*/
 main {
     position: relative;
     margin-top: 45px;
-    height: 400px;
     width: 100%;
-    font-size:0px;
+    font-size: 0px;
 
 }
 
+/*上半部分*/
 .dabeijing {
-    background-image: url(./task5/大背景.png);
-    background-repeat: no-repeat;
+    background-image: url(./task5/dabeijing.png);
     background-size: 100%;
-    height: 164px;
+    height: 163.5px;
     width: 100%;
 }
 
 .touxiang {
-    background-image: url(./task5/头像2.png);
+    background-image: url(./task5/touxiang.png);
     background-size: 100%;
     width: 84.5px;
     height: 84.5px;
@@ -59,23 +57,27 @@ main {
     top: 39.75px;
 
 }
-.name{
+
+.name {
     display: inline-block;
     margin-left: 120px;
     margin-top: 58px;
     margin-right: 14.5px;
     color: #ffffff;
     font-size: 16px;
+    border: none;
 }
+
 .nianling {
     color: #ffffff;
     font-size: 14px;
-    
+    border: none;
+
 }
 
 .dingwei {
     display: inline-block;
-    background-image: url(./task5/定位.png);
+    background-image: url(./task5/dingwei.png);
     background-size: 100%;
     width: 9px;
     height: 11.5px;
@@ -83,13 +85,69 @@ main {
     left: 121px;
     top: 87px;
 }
-.weizhi{
+
+.weizhi {
     font-size: 12px;
     color: #ffffff;
     margin-left: 138px;
     margin-top: 5px;
+}
+
+/*下半部分*/
+.fbox1 {
+    font-size: 15px;
+    list-style-type: none;
+    margin-left: 16px;
+
 
 }
+
+li {
+    padding: 17px;
+    color: #999999;
+    border-bottom: 1px solid #e1e5e7;
+}
+
+.workingtime,
+.salary,
+.experience,
+.self-introdution {
+    margin-right: 16px;
+}
+
+span {
+    border-left: 2px solid #e1e5e7;
+    color: #333333;
+}
+
+.skill {
+    margin-left: 15px;
+    border-left: 2px solid #5fc0cd;
+    margin: 17px;
+    line-height: 90%;
+}
+
+img {
+    width: 11.5px;
+    height: 12px;
+}
+.home {
+    border: none;
+}
+.food {
+    line-height: 60%;
+   }
+.salary>span{
+    color: red;
+}
+
+
+.self-introdution1 {
+    display: inline-block;
+    border: none;
+}
+
+
 
 
 /*紧贴底部*/

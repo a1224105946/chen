@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*紧贴顶部*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #5fc0cd;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    position: absolute;
+    left: 10px;
+    width: 8.5px;
+    height: 8.5px;
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    transform: rotate(45deg);
+}
+
+.zhuye {
+    font-size: 16px;
+}
+
+/*中间部分*/
+/*大背景*/
+main {
+    position: relative;
+    margin-top: 45px;
+    height: 400px;
+    width: 100%;
+    font-size:0px;
+
+}
+
+.dabeijing {
+    background-image: url(./task5/dabeijing.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 164px;
+    width: 100%;
+}
+
+.touxiang {
+    background-image: url(./task5/touxiang2.png);
+    background-size: 100%;
+    width: 84.5px;
+    height: 84.5px;
+    position: absolute;
+    left: 15px;
+    top: 39.75px;
+
+}
+.name{
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 58px;
+    margin-right: 14.5px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.nianling {
+    color: #ffffff;
+    font-size: 14px;
+    
+}
+
+.dingwei {
+    display: inline-block;
+    background-image: url(./task5/dingwei.png);
+    background-size: 100%;
+    width: 9px;
+    height: 11.5px;
+    position: absolute;
+    left: 121px;
+    top: 87px;
+}
+.weizhi{
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 138px;
+    margin-top: 5px;
+
+}
+
+
+/*紧贴底部*/
+footer {
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    font-size: 16px;
+    height: 42px;
+    width: 43%;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid #5fc0cd;
+}
+
+.liuyan {
+    background-color: #ffffff;
+    color: #5fc0cd;
+    border-color: #5fc0cd;
+}
+
+.dianhua {
+    background-color: #5fc0cd;
+    color: #ffffff;
+    border-color: #ffffff;
+}

@@ -19,7 +19,7 @@ header {
     align-items: center;
     height: 45px;
     background-color: #5fc0cd;
-    font-size: 16px;
+    font-size: 15.5px;
 
 }
 
@@ -50,7 +50,7 @@ button {
     border-radius: 5px;
 }
 
-.dingwei1 {
+.dingwei-1 {
     display: inline-block;
     position: absolute;
     right: 15px;
@@ -66,9 +66,8 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     border-bottom: 1px solid #e2eaec;
-
+    background-color: #ffffff;
 }
 
 .drop1,
@@ -78,10 +77,11 @@ button {
     justify-content: center;
     display: inline-block;
     width: 33%;
+    position: relative;
 }
 
+.drop1,
 .drop2 {
-    border-left: 1px solid #e2eaec;
     border-right: 1px solid #e2eaec;
 }
 
@@ -89,7 +89,7 @@ button {
 .button2,
 .button3 {
     width: 100%;
-    font-size: 16px;
+    font-size: 13px;
     outline: none !important;
     box-shadow: none !important;
     border: 0;
@@ -97,46 +97,134 @@ button {
     color: #999999 !important;
 }
 
-.caret1 {
-    color: #999999 !important;
-}
-
+.caret1,
 .caret2,
 .caret3 {
+    position: absolute;
+    right: 6px;
+    top: 17px;
     color: #999999 !important;
+
 }
+
+
 
 .menu1,
 .menu2,
 .menu3 {
-    min-width: 32% !important;
+    min-width: 98% !important;
 }
 
 a {
     color: #5fc0cd !important;
     text-align: center;
+
 }
-
-
-
 /*main部分*/
 
 /*main整体定义*/
 main {
     margin-top: 85px;
+    font-size: 12px;
+}
+span{
+    white-space: nowrap;text-overflow: ellipsis;
 }
 
 /*main下若干相同结构小块定义 */
 .content {
-    height: 80px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #e1e5e7;
 }
 
 /*main下若干相同小块分为两个弹性盒子组成*/
 /*第一个 左边的大块*/
-.content1 {}
+.content1 {
+    margin-left: 15px;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+/*第一块 第一行*/
+
+/*第一行的雪碧图*/
+.sprite1 {
+    display: inline-block;
+    background-image: url(task6.1/date.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    transform: scale(0.5);
+    width: 24px;
+    height: 24px;
+}
+
+.date1 {
+    position: absolute;
+    top: 5px;
+    color: #999999;
+}
+
+/*第一块 第二行*/
+
+.long {
+    font-size:12.5px;
+    display: inline-block;
+    margin: 1px 0 1px 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*第一块 第三行*/
+
+ /*第三行的雪碧图*/
+.sprite2 {
+    display: inline-block;
+    background-image: url(task6.1/dingwei2.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    transform: scale(0.5);
+    width: 19px;
+    height: 23px;
+}
+
+.dingwei1 {
+    position: absolute;
+    bottom: 7px;
+    color: #999999;
+}
 
 /*第二个 右边的小块*/
+.content2 {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    position: relative;
+    position: absolute;
+    right: 1px;
+}
+
+.salary {
+    font-size: 13px;
+    color: red;
+    margin-right: 36px;
+
+}
+
+.forword {
+    position: absolute;
+    right: 12px;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #5fc0cd;
+    border-right: 2px solid #5fc0cd;
+    transform: rotate(45deg);
+}
 
 
 /*footer部分*/

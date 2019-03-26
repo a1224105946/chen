@@ -60,22 +60,87 @@ button {
 }
 
 /*header第二行*/
-.header-2{
+.header-2 {
     width: 100%;
     height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}
-.drop1,.drop2,.drop3{
-    display: inline-block!important;
-    width: 33%
-    border:0;
-    background-color:#ffffff;
+
+    border-bottom: 1px solid #e2eaec;
+
 }
 
-footer{
+.drop1,
+.drop2,
+.drop3 {
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    width: 33%;
+}
+
+.drop2 {
+    border-left: 1px solid #e2eaec;
+    border-right: 1px solid #e2eaec;
+}
+
+.button1,
+.button2,
+.button3 {
+    width: 100%;
+    font-size: 16px;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0;
+    background-color: #ffffff !important;
+    color: #999999 !important;
+}
+
+.caret1 {
+    color: #999999 !important;
+}
+
+.caret2,
+.caret3 {
+    color: #999999 !important;
+}
+
+.menu1,
+.menu2,
+.menu3 {
+    min-width: 32% !important;
+}
+
+a {
+    color: #5fc0cd !important;
+    text-align: center;
+}
+
+
+
+/*main部分*/
+
+/*main整体定义*/
+main {
+    margin-top: 85px;
+}
+
+/*main下若干相同结构小块定义 */
+.content {
+    height: 80px;
+}
+
+/*main下若干相同小块分为两个弹性盒子组成*/
+/*第一个 左边的大块*/
+.content1 {}
+
+
+/*第二个 右边的小块*/
+
+
+/*footer部分*/
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -86,25 +151,61 @@ footer{
     justify-content: space-between;
     align-items: center;
     background-color: #f8fafb;
+    border-top: 1px solid #e2eaec;
 }
-.home{
+
+/*footer左边 home*/
+.home {
+    margin-left: 82px;
+    display: inline-block;
+    width: 23px;
 
 }
-.home1{
+
+/*home的图片*/
+.home1 {
     width: 23px;
     height: 20px;
 }
-.write1{
-    width: 47px;
-    height: 47px;
+
+/*home的文字*/
+.home2 {
+    display: inline-block;
+    margin-top: 4px;
+    width: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: #5fc0cd
 }
-.head1{
+
+
+/*footer右边 head*/
+.head {
+    margin-right: 84px;
+    display: inline-block;
+    width: 23px;
+}
+
+/*head的图片*/
+.head1 {
     width: 21px;
     height: 20.5px;
+    padding-left: 3px;
 }
-.home2,.head2 {
-    margin-top:0px;
-    text-align: center; 
-    
-    
+
+/*head的文字*/
+.head2 {
+    display: inline-block;
+    margin-top: 4px;
+    width: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: #999999;
+
+}
+
+/*footer中间图标*/
+.write1 {
+    width: 47px;
+    height: 47px;
 }

@@ -114,13 +114,15 @@ button {
 .menu3 {
     min-width: 100% !important;
 }
-.menu1{
-    position: absolute!important;
-    left:-5px!important;
+
+.menu1 {
+    position: absolute !important;
+    left: -5px !important;
 }
-.menu3{
-    position: absolute!important;
-    left:5px!important;  
+
+.menu3 {
+    position: absolute !important;
+    left: 5px !important;
 }
 
 a {
@@ -128,6 +130,7 @@ a {
     text-align: center;
 
 }
+
 /*main部分*/
 
 /*main整体定义*/
@@ -135,13 +138,15 @@ main {
     margin-top: 85px;
     font-size: 12px;
 }
-span{
-    white-space: nowrap;text-overflow: ellipsis;
+
+span {
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 /*main下若干相同结构小块定义 */
 .content {
-    
+
     height: 90px;
     display: flex;
     flex-direction: column;
@@ -183,7 +188,7 @@ span{
 /*第一块 第二行*/
 
 .time {
-    font-size:12.5px;
+    font-size: 12.5px;
     display: inline-block;
     margin: 1px 0 1px 22px;
     overflow: hidden;
@@ -193,7 +198,7 @@ span{
 
 /*第一块 第三行*/
 
- /*第三行的雪碧图*/
+/*第三行的雪碧图*/
 .sprite2 {
     display: inline-block;
     background-image: url(task6.1/dingwei2.png);
@@ -272,6 +277,7 @@ footer {
 .home2 {
     display: inline-block;
     margin-top: 4px;
+    margin-left: 3px;
     width: auto;
     text-align: center;
     white-space: nowrap;
@@ -297,6 +303,7 @@ footer {
 .head2 {
     display: inline-block;
     margin-top: 4px;
+    margin-left: 3px;
     width: auto;
     text-align: center;
     white-space: nowrap;

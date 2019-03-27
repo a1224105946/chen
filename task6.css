@@ -112,7 +112,15 @@ button {
 .menu1,
 .menu2,
 .menu3 {
-    min-width: 98% !important;
+    min-width: 100% !important;
+}
+.menu1{
+    position: absolute!important;
+    left:-5px!important;
+}
+.menu3{
+    position: absolute!important;
+    left:5px!important;  
 }
 
 a {
@@ -133,6 +141,7 @@ span{
 
 /*main下若干相同结构小块定义 */
 .content {
+    
     height: 90px;
     display: flex;
     flex-direction: column;
@@ -143,6 +152,7 @@ span{
 /*main下若干相同小块分为两个弹性盒子组成*/
 /*第一个 左边的大块*/
 .content1 {
+    width: calc(100% - 140px);
     margin-left: 15px;
     display: inline-block;
     position: relative;
@@ -172,10 +182,11 @@ span{
 
 /*第一块 第二行*/
 
-.long {
+.time {
     font-size:12.5px;
     display: inline-block;
     margin: 1px 0 1px 22px;
+    overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
@@ -201,15 +212,16 @@ span{
 
 /*第二个 右边的小块*/
 .content2 {
-    display: inline-block;
+    width: 140px;
+    height: inherit;
     display: flex;
     align-items: center;
-    position: relative;
     position: absolute;
     right: 1px;
 }
 
 .salary {
+    margin-left: 35px;
     font-size: 13px;
     color: red;
     margin-right: 36px;
